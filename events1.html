@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different Events For Same Element</title>
+</head>
+<body>
+    <h2>Different Events on button</h2>
+    <button id="btn">Try It</button>
+    <p class="demo"></p>
+    <script>
+       //let X=document.getElementById("btn");
+       const btn=document.querySelector("button");
+       const para=document.querySelector(".demo");
+       btn.addEventListener("mouseover",function1);
+       function function1(){
+        para.innerHTML="<h3>Moused Over!--------></h3>Get displayed when the mouse is kept on button.";
+       }
+
+       btn.addEventListener("click",function2);
+       function function2(){
+           para.innerHTML="<h3>Clicked!---------></h3>Get displayed When the button is clicked.";
+
+       }
+
+       btn.addEventListener("mouseout",function3);
+       function function3(){
+           para.innerHTML="<h3>Moused Out!--------></h3>Get displayed when the mouse is away from button."; 
+
+       }
+        
+        
+    </script>
+</body>
+</html>
