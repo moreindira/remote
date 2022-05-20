@@ -1,0 +1,46 @@
+#container
+{
+    margin-top:40px;
+    margin-left:500px;
+    padding:30px;
+    height:400px;
+    width:500px;
+    color: white;
+    background-color: rgb(22, 3, 32);
+    border: 1px solid rgb(3, 3, 65);
+    border-radius: 15px;;
+}
+#main
+{
+    margin-top:80px;
+    margin-left: 185px;
+    font-size: 25px;
+
+}
+#time
+{
+    margin-top:10px;
+    margin-bottom:30px;
+    font-size:30px;
+    margin-left:220px;
+
+}
+#start
+{
+  margin-left:120px;
+}
+
+.setTime
+{
+    margin-top:20px;
+    margin-bottom:10px;
+    font-size: 25px;
+    background-color: darkgoldenrod;
+    border:1px solid black;
+    height:60px;
+    width:100px;
+    border-radius: 15px;
+    font-weight: 90;
+
+}
+
